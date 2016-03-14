@@ -1,0 +1,7 @@
+{
+  "name": "Mod k2 related items",
+  "tagline": "List related items for K2",
+  "body": "# mod_k2_related_items\r\nList related items for K2\r\n@Javi_Mata\r\n\r\n\r\nThis module try get the actual categories to display a list of related items for category\r\n\r\nFirst, get the Menu value, if this is a K2 Categories get the categories params\r\nSecond, if use a module like K2 Tools get the category for the link\r\nThirt, if are in a Item view get the id of the item and get the category\r\n",
+  "google": "",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
