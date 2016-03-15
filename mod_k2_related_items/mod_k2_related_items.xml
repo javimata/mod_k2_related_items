@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" client="site" version="3.0" method="upgrade">
-    <name>K2 Items related</name>
+    <name>Items related for K2</name>
     <author>@Javi_Mata</author>
-    <creationDate>February 28th, 2016</creationDate>
+    <creationDate>March 15th, 2016</creationDate>
     <copyright>Copyright (c) 2016 @Javi_Mata</copyright>
     <authorEmail>javimata@gmail.com</authorEmail>
     <authorUrl>www.javimata.com</authorUrl>
