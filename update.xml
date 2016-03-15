@@ -6,7 +6,7 @@
 	
 	<!-- valid links only or leave blank -->
 	<homepage_link>http://javimata.github.io/mod_k2_related_items</homepage_link>
-	<download_link>https://github.com/javimata/mod_k2_related_items/raw/master/mod_k2_related_items.zip</download_link>
+	<download_link>https://github.com/javimata/mod_k2_related_items/zipball/master</download_link>
 	<documentation_link>http://javimata.github.io/mod_k2_related_items</documentation_link>
 	<support_link>http://javimata.github.io/mod_k2_related_items</support_link>
 	<license_link>http://javimata.github.io/mod_k2_related_items</license_link>
