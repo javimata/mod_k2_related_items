@@ -10,3 +10,5 @@ First, get the Menu value, if this is a K2 Categories get the categories params
 Second, if use a module like K2 Tools get the category for the link
 
 Thirt, if are in a Item view get the id of the item and get the category
+
+![Image of Plugin](https://raw.githubusercontent.com/javimata/mod_k2_categories/master/mod_k2_related_items.png)
