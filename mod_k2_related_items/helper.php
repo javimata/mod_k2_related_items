@@ -1,9 +1,9 @@
 <?php
 /**
- * @version		2.6.x
- * @package		K2
- * @author		JoomlaWorks http://www.joomlaworks.net
- * @copyright	Copyright (c) 2006 - 2014 JoomlaWorks Ltd. All rights reserved.
+ * @version		1.0.0
+ * @package		Module Items related for K2
+ * @author		@Javi_Mata http://www.javimata.com
+ * @copyright	Copyright (c) 2016. All rights reserved.
  * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  */
 
@@ -32,22 +32,30 @@ class modK2RelatedHelper
 		if (!$itemId){
 
 			$cid = $categorias;
+			$tipo_listado = 1; 
 
 		}else{
 
 			if ($taskView == "category"){
 
 				$cid = $itemId;
+				$tipo_listado = 2;
 
 			}else{
 
 				$squery = "SELECT catid FROM #__k2_items WHERE id = " . $itemId;
 				$db->setQuery($squery);
 				$cid = $db->loadResult();
-
+				$tipo_listado = 3;
 			}
 
 		}
+
+		/* Tipo de listado
+		** 1 - Menu
+		** 2 - Categoria
+		** 3 - Item (Interna)
+		*/
 
 		//echo $cid;
 
@@ -174,6 +182,7 @@ class modK2RelatedHelper
 
                 // Restore the intotext variable after plugins execution
                 $item->introtext = $item->text;
+                $item->tipo_listado = $tipo_listado;
 
 
 				$rows[] = $item;

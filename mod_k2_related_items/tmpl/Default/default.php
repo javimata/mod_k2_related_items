@@ -1,9 +1,9 @@
 <?php
 /**
- * @version		2.6.x
- * @package		K2
- * @author		JoomlaWorks http://www.joomlaworks.net
- * @copyright	Copyright (c) 2006 - 2014 JoomlaWorks Ltd. All rights reserved.
+ * @version		1.0.0
+ * @package		Module Items related for K2
+ * @author		@Javi_Mata http://www.javimata.com
+ * @copyright	Copyright (c) 2016. All rights reserved.
  * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  */
 
@@ -20,9 +20,16 @@ defined('_JEXEC') or die;
     	<?php
     	$classList = ($key%2) ? "odd" : "even"; 
     	if(count($items)==$key+1) $classList .= ' lastItem';
+    	$tipo_listado = $item->tipo_listado;
+    	$class   = "";
+    	$addLink = 1;
+    	if ( $tipo_listado == 3 && $item->id == JRequest::getInt('id') ){
+    		$class = " active";
+    		$addLink = 0;
+    	}
     	?>
 
-    	<li class="<?php echo $classList ?> relatedItemList item-<?php echo $item->id; ?>">
+    	<li class="<?php echo $classList ?> relatedItemList item-<?php echo $item->id; ?><?php echo $class; ?>">
 
 			<?php if($params->get('itemImgShow')!=0): ?>
 			<div class="itemImage">
@@ -35,12 +42,14 @@ defined('_JEXEC') or die;
 
 			<?php if($params->get('itemTitle')!=0): ?>
 			<div class="itemTitle">
-				<?php if ($params->get('itemTitle')==2): ?>
+				<?php if ( $params->get('itemTitle')==2 && $addLink==1 ): ?>
 				<a class="linkItemTitle" href="<?php echo $item->link; ?>">
 					<?php echo $item->title; ?>
 				</a>
 				<?php else: ?>
-					<?php echo $item->title; ?>					
+				<span class="linkItemTitle">
+					<?php echo $item->title; ?>
+				</span>
 				<?php endif; ?>
 			</div>
 			<?php endif; ?>
