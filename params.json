@@ -1,7 +1,7 @@
 {
   "name": "Mod k2 related items",
   "tagline": "List related items for K2",
-  "body": "# mod_k2_related_items\r\nList related items for K2\r\n@Javi_Mata\r\n\r\n\r\nThis module try get the actual categories to display a list of related items for category\r\n\r\nFirst, get the Menu value, if this is a K2 Categories get the categories params\r\nSecond, if use a module like K2 Tools get the category for the link\r\nThirt, if are in a Item view get the id of the item and get the category\r\n",
+  "body": "# mod_k2_related_items\r\nTake control of your Joomla! K2 Related Items with the \"Items Related to K2\" Module.\r\n@Javi_Mata\r\n\r\nHOW IT WORKS ­ The module generates related items based on the category of the current.\r\nBest of all, you can control how the related items are displayed in the module based on the following\r\nparameters:\r\n\r\n* Sort by\r\n* Item title\r\n* Item Image (specify size)\r\n* Introtext\r\n* Read more\r\nYou also have the ability to control the module class and the K2 override template.\r\n\r\nEnjoy!\r\n\r\nThis module get the actual categories to display a list of related items for category\r\n\r\nFirst, get the Menu value, if this is a K2 Categories get the categories params\r\n\r\nSecond, if use a module like K2 Tools get the category for the link\r\n\r\nThirt, if are in a Item view get the id of the item and get the category\r\n\r\n![Image of Plugin](https://raw.githubusercontent.com/javimata/mod_k2_related_items/master/mod_k2_related_items.png)\r\n",
   "google": "UA-75132754-1",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
