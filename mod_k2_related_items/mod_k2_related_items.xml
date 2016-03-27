@@ -17,7 +17,7 @@
     </files>
 
     <updateservers>
-        <server type="extension" name="Items related for K2" priority="1">http://updates.javimata.com/mod_k2_related_items_update.xml</server>
+        <server type="module" name="Items related for K2" priority="1">https://raw.githubusercontent.com/javimata/mod_k2_related_items/master/update.xml</server>
     </updateservers>
 
     <config>
@@ -40,7 +40,7 @@
                 <field name="itemTitle" type="list" default="1" label="Display title" description="">
                     <option value="1">JYES</option>
                     <option value="0">JNO</option>
-                    <option value="2">Yes, with link</option>
+                    <option value="2">Si, with link</option>
                 </field>
 
                 <field name="itemIntroText" type="radio" default="1" label="Show introtext" description="">
