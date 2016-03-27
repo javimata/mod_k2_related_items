@@ -15,6 +15,11 @@
         <filename>index.html</filename>
         <folder>tmpl</folder>
     </files>
+
+    <updateservers>
+        <server type="extension" name="Items related for K2" priority="1">https://raw.githubusercontent.com/javimata/mod_k2_related_items/master/update.xml</server>
+    </updateservers>
+
     <config>
         <fields name="params">
             <fieldset name="basic" addfieldpath="/administrator/components/com_k2/elements/">
