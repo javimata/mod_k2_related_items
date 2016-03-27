@@ -3,10 +3,10 @@
 		<name>Items related for K2</name>
 		<description>Items related list for K2</description>
 		<element>mod_k2_related_items</element>
-		<type>module</type>
+		<type>extension</type>
 		<version>1.0.1</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/javimata/mod_k2_related_items/raw/master/mod_k2_related_items.zip</downloadurl>
+			<downloadurl type="upgrade" format="zip">https://github.com/javimata/mod_k2_related_items/raw/master/mod_k2_related_items.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
