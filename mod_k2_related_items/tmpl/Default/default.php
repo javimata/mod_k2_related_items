@@ -31,7 +31,7 @@ defined('_JEXEC') or die;
 
     	<li class="<?php echo $classList ?> relatedItemList item-<?php echo $item->id; ?><?php echo $class; ?>">
 
-			<?php if($params->get('itemImgShow')!=0): ?>
+			<?php if($params->get('itemImgShow')!=0 && isset($item->image)): ?>
 			<div class="itemImage">
 				<a class="linkItemTitle" href="<?php echo $item->link; ?>">
 					<img src="<?php echo $item->image; ?>" class="imgItem">
