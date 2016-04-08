@@ -12,7 +12,7 @@
 			<tag>stable</tag>
 		</tags>
 		<maintainer>@Javi_Mata</maintainer>
-		<maintainerurl>http://www.javimata.com</maintainerurl>
+		<maintainerurl>http://www.javimata.com/</maintainerurl>
 		<targetplatform name="joomla" version="3.0"/>
 		<client>site</client>
 	</update>
