@@ -4,7 +4,7 @@
 		<description>Items related list for K2</description>
 		<element>mod_k2_related_items</element>
 		<type>extension</type>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<downloads>
 			<downloadurl type="upgrade" format="zip">https://github.com/javimata/mod_k2_related_items/raw/master/mod_k2_related_items.1.0.2.zip</downloadurl>
 		</downloads>
