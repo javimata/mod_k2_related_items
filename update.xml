@@ -6,13 +6,13 @@
 		<type>extension</type>
 		<version>1.0.2</version>
 		<downloads>
-			<downloadurl type="upgrade" format="zip">https://github.com/javimata/mod_k2_related_items/raw/master/mod_k2_related_items1.0.2.zip</downloadurl>
+			<downloadurl type="upgrade" format="zip">https://github.com/javimata/mod_k2_related_items/raw/master/mod_k2_related_items.1.0.2.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<maintainer>@Javi_Mata</maintainer>
-		<maintainerurl>http://www.javimata.com/</maintainerurl>
+		<maintainerurl>http://www.javimata.com</maintainerurl>
 		<targetplatform name="joomla" version="3.0"/>
 		<client>site</client>
 	</update>
